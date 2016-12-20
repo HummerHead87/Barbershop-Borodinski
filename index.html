@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Barbershop BORODINSKI</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="blocks/button/button.css">
+    <link rel="stylesheet" href="blocks/header/header.css">
+    <link rel="stylesheet" href="blocks/wrapper/wrapper.css">
     <!--   <link href="//fonts.googleapis.com/css?family=PT+Sans:400&subset=cyrillic" rel="stylesheet" type="text/css"> -->
 
     <!--[if lt IE 9]>
@@ -15,25 +18,23 @@
 
 <body>
     <div class="header">
-        <div class="wrapper">
+        <div class="header__container wrapper__container">
             <div class="nav">
-                <ul>
-                    <li><a class="btn" href="#">Информация</a></li>
-                    <li><a class="btn" href="#">Новости</a></li>
-                    <li><a class="btn" href="#">Прайс-лист</a></li>
-                    <li><a class="btn" href="#">Магазин</a></li>
-                    <li><a class="btn" href="#">Контакты</a></li>
+                <ul class="header__nav">
+                    <li><a class="button header__button" href="#">Информация</a></li>
+                    <li><a class="button header__button" href="#">Новости</a></li>
+                    <li><a class="button header__button" href="#">Прайс-лист</a></li>
+                    <li><a class="button header__button" href="#">Магазин</a></li>
+                    <li><a class="button header__button" href="#">Контакты</a></li>
                 </ul>
-
             </div>
-            <div class="sign-in">
-                <a class="btn" href="#">
-                    <div class="icon"></div>Войти</a>
+            <div class="header__signin">
+                <a class="button header__button header__button-signin" href="#">Войти</a>
             </div>
         </div>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper__container">
         <h1><img src="images/logo.png" alt="Barbershop BORODINSKI" width="368" height="204"></h1>
 
         <div class="advantages">

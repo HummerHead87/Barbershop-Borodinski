@@ -30,58 +30,8 @@ body {
     background-position-x: 50%;
 }
 
-.header {
-    background-color: #000000;
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 940px;
-    padding: 0px 10px;
-    outline: 1px dotted red;
-}
-
 
 /* HEADER BEGIN */
-
-.header .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav ul {
-    list-style: none;
-    display: flex;
-}
-
-.header .nav {
-    flex-grow: 1;
-}
-
-.header .btn {
-    margin: 26px 20px;
-    line-height: 20px;
-    font-size: 16px;
-    display: block;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.sign-in {
-    position: relative;
-    padding-left: 12px;
-    /* нужно 32px от края надписи войти из них 20px margin у .btn */
-}
-
-.sign-in .icon {
-    position: absolute;
-    top: 26px;
-    left: 0;
-    width: 18px;
-    height: 16px;
-    background: url("../images/icon-login.png") no-repeat 0 0;
-}
 
 
 /* HEADER END */

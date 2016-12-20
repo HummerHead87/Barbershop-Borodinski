@@ -1,0 +1,5 @@
+.wrapper__container {
+    margin: 0 auto;
+    width: 940px;
+    outline: 1px dotted blue;
+}

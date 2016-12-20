@@ -1,0 +1,51 @@
+.header {
+    background-color: #000000;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+}
+
+.header__button:hover {
+    background-color: #242424;
+}
+
+.header__button {
+    padding: 26px 20px;
+}
+
+.header__signin {
+    position: relative;
+}
+
+.header__button-signin {
+    padding: 26px 20px 26px 53px;
+    outline: 1px dotted red;
+}
+
+.header__button-signin::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 22px;
+    width: 18px;
+    height: 16px;
+    background: url("header__button-signin.png") no-repeat 0 0;
+}
+
+.header__button-signin:hover::before {
+    width: 30px;
+    height: 26px;
+    top: 22px;
+    left: 16px;
+    background: url("header__button-signin-hovered.png") no-repeat 0 0;
+}
