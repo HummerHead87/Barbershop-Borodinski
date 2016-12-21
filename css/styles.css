@@ -28,60 +28,8 @@ body {
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position-x: 50%;
+    color: black;
 }
-
-
-/* HEADER BEGIN */
-
-
-/* HEADER END */
-
-h1 {
-    margin: 60px auto 24px auto;
-    width: 368px;
-    outline: 1px dotted cyan;
-}
-
-
-/* ADVANTAGES BEGIN */
-
-.advantages {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
-}
-
-.advantage {
-    flex-basis: 280px;
-    outline: 1px dotted yellow;
-}
-
-.advantage h2 {
-    text-transform: uppercase;
-    font-size: 30px;
-    line-height: 42px;
-    color: #fff;
-    text-align: center;
-    outline: 1px dotted green;
-}
-
-.advantage h2::after {
-    content: "";
-    display: block;
-    width: 28px;
-    height: 28px;
-    margin: 10px auto 25px auto;
-    background: url("../images/shape.svg") no-repeat 0 0;
-}
-
-.advantage p {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-}
-
-
-/* ADVANTAGES END */
 
 
 /* NEWS AND PHOTO BEGIN */

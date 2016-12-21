@@ -1,0 +1,18 @@
+.advantage {
+    flex-basis: 300px;
+    text-align: center;
+    outline: 1px dotted yellow;
+}
+
+.advantage__header::after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 8px auto 25px auto;
+    background: url("advantage__header.svg") no-repeat 0 0;
+}
+
+.advantage__p {
+    padding: 0 10px;
+}

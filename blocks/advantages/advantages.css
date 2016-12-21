@@ -1,0 +1,15 @@
+.advantages {
+    padding-bottom: 40px;
+    color: #f7f4f1;
+}
+
+.advantages__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage {
+    flex-basis: 300px;
+    text-align: center;
+    outline: 1px dotted yellow;
+}

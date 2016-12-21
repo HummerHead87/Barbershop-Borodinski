@@ -18,34 +18,38 @@
     background-color: #242424;
 }
 
-.header__button {
+.header__button_style-menu {
     padding: 26px 20px;
+}
+
+.header__button-active .header__button-text {
+    padding: 22px 0px;
+    border-bottom: 4px solid white;
 }
 
 .header__signin {
     position: relative;
 }
 
-.header__button-signin {
+.header__button_style-signin {
     padding: 26px 20px 26px 53px;
-    outline: 1px dotted red;
 }
 
-.header__button-signin::before {
+.header__button_style-signin::before {
     content: "";
     display: block;
     position: absolute;
     top: 27px;
-    left: 22px;
+    left: 18px;
     width: 18px;
     height: 16px;
     background: url("header__button-signin.png") no-repeat 0 0;
 }
 
-.header__button-signin:hover::before {
+.header__button_style-signin:hover::before {
     width: 30px;
     height: 26px;
     top: 22px;
-    left: 16px;
+    left: 12px;
     background: url("header__button-signin-hovered.png") no-repeat 0 0;
 }

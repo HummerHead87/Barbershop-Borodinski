@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="blocks/button/button.css">
     <link rel="stylesheet" href="blocks/header/header.css">
     <link rel="stylesheet" href="blocks/wrapper/wrapper.css">
+    <link rel="stylesheet" href="blocks/logo/logo.css">
+    <link rel="stylesheet" href="blocks/advantages/advantages.css">
+    <link rel="stylesheet" href="blocks/advantage/advantage.css">
+    <link rel="stylesheet" href="blocks/h1/h1.css">
     <!--   <link href="//fonts.googleapis.com/css?family=PT+Sans:400&subset=cyrillic" rel="stylesheet" type="text/css"> -->
 
     <!--[if lt IE 9]>
@@ -17,40 +21,64 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="header__container wrapper__container">
-            <div class="nav">
+            <nav class="nav">
                 <ul class="header__nav">
-                    <li><a class="button header__button" href="#">Информация</a></li>
-                    <li><a class="button header__button" href="#">Новости</a></li>
-                    <li><a class="button header__button" href="#">Прайс-лист</a></li>
-                    <li><a class="button header__button" href="#">Магазин</a></li>
-                    <li><a class="button header__button" href="#">Контакты</a></li>
+                    <li>
+                        <a class="button header__button header__button_style-menu" href="#">
+                            <span class="header__button-text">Информация</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="button header__button header__button_style-menu" href="#">
+                            <span class="header__button-text">Новости</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="button header__button header__button_style-menu" href="#">
+                            <span class="header__button-text">Прайс-лист</a>
+                        </span></li>
+                    <li>
+                        <a class="button header__button header__button_style-menu" href="#">
+                            <span class="header__button-text">Магазин</a>
+                        </span></li>
+                    <li>
+                        <a class="button header__button header__button_style-menu" href="#">
+                            <span class="header__button-text">Контакты</a>
+                        </span></li>
                 </ul>
-            </div>
+            </nav>
             <div class="header__signin">
-                <a class="button header__button header__button-signin" href="#">Войти</a>
+                <a class="button header__button  header__button_style-signin" href="#">Вход</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="logo wrapper__container">
+        <div class="logo__img">
+            <img src="blocks/logo/logo__img.png" alt="Barbershop BORODINSKI" width="368" height="204">
+        </div>
+    </div>
+
+    <div class="advantages wrapper__container">
+        <div class="advantages__container">
+            <div class="advantage">
+                <h2 class="advantage__header h1">Быстро</h2>
+                <p class="advantage__p">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+            </div>
+            <div class="advantage">
+                <h2 class="advantage__header h1">Круто</h2>
+                <p class="advantage__p">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br>ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+            </div>
+            <div class="advantage">
+                <h2 class="advantage__header h1">Дорого</h2>
+                <p class="advantage__p">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
             </div>
         </div>
     </div>
 
     <div class="wrapper__container">
-        <h1><img src="images/logo.png" alt="Barbershop BORODINSKI" width="368" height="204"></h1>
-
-        <div class="advantages">
-            <div class="advantage">
-                <h2>Быстро</h2>
-                <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
-            </div>
-            <div class="advantage">
-                <h2>Круто</h2>
-                <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
-            </div>
-            <div class="advantage">
-                <h2>Дорого</h2>
-                <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
-            </div>
-        </div>
 
         <article class="news-and-photo">
             <section class="news">
