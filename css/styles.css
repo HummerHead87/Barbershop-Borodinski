@@ -18,43 +18,15 @@
 }
 
 body {
-    min-width: 1000px;
     font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #242424;
+    background-color: black;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position-x: 50%;
     color: black;
-}
-
-
-/* NEWS AND PHOTO BEGIN */
-
-.news-and-photo {
-    display: flex;
-    background-color: white;
-}
-
-.news-and-photo section {
-    position: relative;
-    width: 50%;
-    height: 420px;
-    outline: 1px dotted gray;
-    background: url("../images/bg-news-and-photo.png");
-}
-
-.news-and-photo .news::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 8px;
-    height: 278px;
-    background: url("../images/news-shadow.png") no-repeat 0 0;
-    top: 71px;
-    right: -3px;
-    z-index: 1;
+    text-shadow: 0 0 1px #a7a5a3;
 }

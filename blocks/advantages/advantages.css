@@ -7,9 +7,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-.advantage {
-    flex-basis: 300px;
-    text-align: center;
-    outline: 1px dotted yellow;
-}

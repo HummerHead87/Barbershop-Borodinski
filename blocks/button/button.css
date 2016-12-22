@@ -1,7 +1,16 @@
 .button {
     display: block;
-    line-height: 20px;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.button_size-m {
+    width: 140px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.button_theme-dark {
+    background-color: black;
 }

@@ -1,0 +1,19 @@
+.news {
+    padding: 45px 40px 50px 80px;
+}
+
+.news__h {
+    margin-bottom: 10px;
+}
+
+.news__article {
+    margin: 21px 0;
+}
+
+.news__date {
+    text-transform: lowercase;
+}
+
+.news__button {
+    margin-top: 28px;
+}

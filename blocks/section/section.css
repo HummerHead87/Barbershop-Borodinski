@@ -1,0 +1,26 @@
+.section {
+    background: url("section-bg.png");
+    outline: 1px dotted pink;
+}
+
+.section_half-width {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.section-shaded {
+    position: relative;
+    overflow:
+}
+
+.section-shaded::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 278px;
+    background: url("section-shaded.png") no-repeat 0 0;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%);
+}

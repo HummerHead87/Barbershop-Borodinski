@@ -1,0 +1,10 @@
+.news-and-photo {
+    padding-top: 37px;
+    padding-bottom: 20px;
+}
+
+.news-and-photo__container {
+    display: flex;
+    background-color: white;
+    height: 420px;
+}
