@@ -5,6 +5,5 @@
 
 .news-and-photo__container {
     display: flex;
-    background-color: white;
     height: 420px;
 }

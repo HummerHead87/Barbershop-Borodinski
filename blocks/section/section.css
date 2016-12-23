@@ -1,5 +1,5 @@
 .section {
-    background: url("section-bg.png");
+    background: white url("section-bg.png");
     outline: 1px dotted pink;
 }
 
@@ -10,7 +10,6 @@
 
 .section-shaded {
     position: relative;
-    overflow:
 }
 
 .section-shaded::before {

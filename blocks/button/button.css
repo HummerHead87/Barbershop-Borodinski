@@ -14,3 +14,7 @@
 .button_theme-dark {
     background-color: black;
 }
+
+.button:hover {
+    background-color: #663d15;
+}
