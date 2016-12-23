@@ -1,0 +1,21 @@
+.photos {
+    padding: 45px 80px 50px 90px;
+}
+
+.photos__container {
+    box-sizing: border-box;
+    height: 238px;
+    padding-top: 23px;
+}
+
+.photos__button {
+    display: inline-block;
+}
+
+.photos__button+.photos__button {
+    margin-left: 17px;
+}
+
+.photos__photo {
+    border: 7px solid white;
+}

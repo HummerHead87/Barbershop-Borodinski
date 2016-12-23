@@ -14,6 +14,12 @@
     text-transform: lowercase;
 }
 
-.news__button {
-    margin-top: 28px;
+.news__p {
+    max-height: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news__container {
+    height: 280px;
 }
