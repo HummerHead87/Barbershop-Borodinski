@@ -3,12 +3,18 @@
     font-size: 14px;
     text-decoration: none;
     color: #ffffff;
+    border: none;
+    text-align: center;
 }
 
 .button_size-m {
     width: 140px;
     line-height: 44px;
-    text-align: center;
+}
+
+.button_size-l {
+    width: 300px;
+    line-height: 44px;
 }
 
 .button_theme-dark {

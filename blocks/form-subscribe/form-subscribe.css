@@ -1,0 +1,44 @@
+.form-subscribe__input {
+    box-sizing: border-box;
+    width: 140px;
+    height: 44px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 1px #a7a5a3;
+    padding-left: 15px;
+}
+
+.form-subscribe__input:nth-child(odd) {
+    margin-right: 17px;
+}
+
+.form-subscribe__input:focus {
+    border-color: #663d15;
+    outline: none;
+}
+
+.form-subscribe__input::-webkit-input-placeholder {
+    text-transform: uppercase;
+    color: black;
+    font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 1px #a7a5a3;
+}
+
+.form-subscribe__input::-moz-placeholder {
+    text-transform: uppercase;
+    color: black;
+    font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 1px #a7a5a3;
+}
