@@ -1,0 +1,35 @@
+.footer {
+    background: url("footer.png");
+    padding-top: 58px;
+    padding-bottom: 46px;
+    color: white;
+}
+
+.footer__container {
+    position: relative;
+}
+
+.footer__contacts {
+    position: absolute;
+    left: 0;
+}
+
+.footer__copyright {
+    position: absolute;
+    right: 0;
+}
+
+.footer__p {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.footer__socials {
+    width: 141px;
+    margin: 0 auto;
+}
+
+.footer__button:hover {
+    background-color: black;
+    filter: invert(1);
+}

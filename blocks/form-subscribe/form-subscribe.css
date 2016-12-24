@@ -42,3 +42,23 @@
     font-weight: bold;
     text-shadow: 0 0 1px #a7a5a3;
 }
+
+.form-subscribe__input:-moz-placeholder {
+    text-transform: uppercase;
+    color: black;
+    font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 1px #a7a5a3;
+}
+
+.form-subscribe__input:-ms-input-placeholder {
+    text-transform: uppercase;
+    color: black;
+    font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 1px #a7a5a3;
+}

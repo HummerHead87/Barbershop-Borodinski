@@ -1,0 +1,18 @@
+.social {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background: url("social.png") no-repeat;
+}
+
+.social+.social {
+    margin-left: 3px;
+}
+
+.social_type-fb {
+    background-position: -43px 0;
+}
+
+.social_type-inst {
+    background-position: -86px 0;
+}

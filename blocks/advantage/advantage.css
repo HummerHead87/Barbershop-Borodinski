@@ -10,6 +10,7 @@
     height: 28px;
     margin: 8px auto 25px auto;
     background: url("advantage__header.svg") no-repeat 0 0;
+    filter: drop-shadow(0 0 1px #a7a5a3);
 }
 
 .advantage__p {

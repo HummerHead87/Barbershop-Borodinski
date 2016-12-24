@@ -1,6 +1,5 @@
 .section {
     background: white url("section-bg.png");
-    outline: 1px dotted pink;
 }
 
 .section_type-left {
