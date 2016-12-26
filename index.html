@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="blocks/header/header.css">
     <link rel="stylesheet" href="blocks/wrapper/wrapper.css">
     <link rel="stylesheet" href="blocks/logo/logo.css">
-    <link rel="stylesheet" href="blocks/advantages/advantages.css">
     <link rel="stylesheet" href="blocks/advantage/advantage.css">
-    <link rel="stylesheet" href="blocks/h1/h1.css">
+    <link rel="stylesheet" href="blocks/title/title.css">
     <link rel="stylesheet" href="blocks/news-and-photo/news-and-photo.css">
     <link rel="stylesheet" href="blocks/section/section.css">
     <link rel="stylesheet" href="blocks/contacts-and-subscribe/contacts-and-subscribe.css">
@@ -32,57 +31,55 @@
 <body>
     <header class="header">
         <div class="header__container wrapper__container">
-            <nav class="nav">
+            <nav class="navigation">
                 <ul class="header__nav">
                     <li>
-                        <a class="button header__button header__button_style-menu" href="#">
+                        <a class="button header__button header__button_style-menu" href="javascript:;">
                             <span class="header__button-text">Информация</span>
                         </a>
                     </li>
                     <li>
-                        <a class="button header__button header__button_style-menu" href="#">
+                        <a class="button header__button header__button_style-menu" href="javascript:;">
                             <span class="header__button-text">Новости</span>
                         </a>
                     </li>
                     <li>
-                        <a class="button header__button header__button_style-menu" href="#">
+                        <a class="button header__button header__button_style-menu" href="javascript:;">
                             <span class="header__button-text">Прайс-лист</a>
                         </span></li>
                     <li>
-                        <a class="button header__button header__button_style-menu" href="#">
+                        <a class="button header__button header__button_style-menu" href="javascript:;">
                             <span class="header__button-text">Магазин</a>
                         </span></li>
                     <li>
-                        <a class="button header__button header__button_style-menu" href="#">
+                        <a class="button header__button header__button_style-menu" href="javascript:;">
                             <span class="header__button-text">Контакты</a>
                         </span></li>
                 </ul>
             </nav>
             <div class="header__signin">
-                <a class="button header__button  header__button_style-signin" href="#">Вход</a>
+                <a class="button header__button  header__button_style-signin" href="javascript:;">Вход</a>
             </div>
         </div>
     </header>
 
     <div class="logo wrapper__container">
-        <div class="logo__img">
-            <img src="blocks/logo/logo__img.png" alt="Barbershop BORODINSKI" width="368" height="204">
-        </div>
+        <img class="logo__img" src="blocks/logo/logo__img.png" alt="Barbershop BORODINSKI" width="368" height="204">
     </div>
 
-    <div class="advantages wrapper__container">
-        <div class="advantages__container">
-            <div class="advantage">
-                <h2 class="advantage__header h1">Быстро</h2>
-                <p class="advantage__p">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+    <div class="advantage wrapper__container">
+        <div class="advantage__container">
+            <div class="advantage__item">
+                <h2 class="advantage__header title">Быстро</h2>
+                <p class="advantage__label">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
             </div>
-            <div class="advantage">
-                <h2 class="advantage__header h1">Круто</h2>
-                <p class="advantage__p">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br>ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+            <div class="advantage__item">
+                <h2 class="advantage__header title">Круто</h2>
+                <p class="advantage__label">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br>ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
             </div>
-            <div class="advantage">
-                <h2 class="advantage__header h1">Дорого</h2>
-                <p class="advantage__p">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+            <div class="advantage__item">
+                <h2 class="advantage__header title">Дорого</h2>
+                <p class="advantage__label">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
             </div>
         </div>
     </div>
@@ -91,7 +88,7 @@
         <article class="news-and-photo__container">
             <section class="section section_type-left">
                 <div class="section__news">
-                    <h2 class="h1">Новости</h2>
+                    <h2 class="title">Новости</h2>
                     <article class="section__p">
                         <p class="section__p-news">
                             НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
@@ -105,17 +102,17 @@
                         <p class="section__p-date">18 января</p>
                     </article>
                 </div>
-                <a class="button button_size-m button_theme-dark" href="#">Все новости</a>
+                <a class="button button_size-m" href="javascript:;">Все новости</a>
             </section>
             <section class="section section_type-right">
-                <h2 class="h1">Фотогалерея</h2>
+                <h2 class="title">Фотогалерея</h2>
                 <div class="section__photos_container">
-                    <a href="#">
+                    <a href="javascript:;">
                         <img class="section__photo" src="blocks/section/section__photo.jpg" alt="Photo" width="286" height="164">
                     </a>
                 </div>
-                <a class="button button_size-m button_theme-dark section__buttons" href="#">Назад</a>
-                <a class="button button_size-m button_theme-dark section__buttons" href="#">Вперед</a>
+                <a class="button button_size-m section__buttons" href="javascript:;">Назад</a>
+                <a class="button button_size-m section__buttons" href="javascript:;">Вперед</a>
             </section>
     </div>
 
@@ -123,7 +120,7 @@
         <article class="contacts-and-subscribe__container">
             <section class="section section_type-left">
                 <div class="contacts__container">
-                    <h2 class="h1">Контактная информация</h2>
+                    <h2 class="title">Контактная информация</h2>
                     <p class="section__p">
                         БАРБЕРШОП «БОРОДИНСКИЙ»<br>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br> ТЕЛЕФОН: +7 (495) 666-02-66
                     </p>
@@ -131,11 +128,11 @@
                         ВРЕМЯ РАБОТЫ:<br> ПН — ПТ: С 10:00 ДО 22:00<br> СБ — ВС: С 10:00 ДО 19:00
                     </p>
                 </div>
-                <a class="button button_size-m button_theme-dark section__buttons" href="#">Как проехать</a>
-                <a class="button button_size-m button_theme-dark section__buttons" href="#">Обратная связь</a>
+                <a class="button button_size-m section__buttons" href="javascript:;">Как проехать</a>
+                <a class="button button_size-m section__buttons" href="javascript:;">Обратная связь</a>
             </section>
             <section class="section section_type-right">
-                <h2 class="h1">Записаться</h2>
+                <h2 class="title">Записаться</h2>
                 <p class="section__p">
                     УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
                 </p>
@@ -144,7 +141,7 @@
                     <input class="form-subscribe__input" type="time" placeholder="Время" name="time" required>
                     <input class="form-subscribe__input" type="text" placeholder="Ваше имя" name="user-name" required>
                     <input class="form-subscribe__input" type="tel" placeholder="Телефон" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" name="tel" required>
-                    <input class="button button_size-l button_theme-dark" type="text" value="Отправить">
+                    <input class="button button_size-l" type="submit" value="Отправить">
                 </form>
             </section>
 
@@ -154,17 +151,17 @@
     <footer class="footer">
         <div class="footer__container wrapper__container">
             <div class="footer__contacts">
-                БАРБЕРШОП «БОРОДИНСКИЙ»<br>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br><a class="link_theme-light" href="#">КАК НАС НАЙТИ?</a><br>ТЕЛЕФОН: +7 (495) 666-02-66
+                БАРБЕРШОП «БОРОДИНСКИЙ»<br>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br><a class="link_theme-light" href="javascript:;">КАК НАС НАЙТИ?</a><br>ТЕЛЕФОН: +7 (495) 666-02-66
             </div>
             <div class="footer__copyright">
                 <p class="footer__p">Разработано:</p>
-                <a class="button button_size-m button_theme-dark footer__button" href="https://htmlacademy.ru/" target="_blank">htmlacademy.ru</a>
+                <a class="button button_size-m footer__button" href="https://htmlacademy.ru/" target="_blank">htmlacademy.ru</a>
             </div>
             <div class="footer__socials">
                 <p class="footer__p">Давайте дружить!</p>
-                <a class="social social_type-vk footer__button" href="#"></a>
-                <a class="social social_type-fb footer__button" href="#"></a>
-                <a class="social social_type-inst footer__button" href="#"></a>
+                <a class="social social_type-vk footer__button" href="javascript:;"></a>
+                <a class="social social_type-fb footer__button" href="javascript:;"></a>
+                <a class="social social_type-inst footer__button" href="javascript:;"></a>
             </div>
         </div>
 

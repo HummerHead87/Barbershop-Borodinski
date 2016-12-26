@@ -3,14 +3,12 @@
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     border: none;
     text-align: center;
-    font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
-    font-size: 14px;
     line-height: 40px;
-    font-weight: bold;
     text-shadow: 0 0 1px #a7a5a3;
+    background-color: black;
 }
 
 .button_size-m {
@@ -21,10 +19,6 @@
 .button_size-l {
     width: 300px;
     line-height: 44px;
-}
-
-.button_theme-dark {
-    background-color: black;
 }
 
 .button:hover {
