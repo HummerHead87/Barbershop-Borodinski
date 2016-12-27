@@ -1,18 +1,35 @@
 .social {
+    font-size: 0;
+}
+
+.social__item {
     display: inline-block;
+    vertical-align: top;
     width: 43px;
     height: 43px;
-    background: url("social.png") no-repeat;
+    background: black url("social__item.png") no-repeat;
 }
 
-.social+.social {
-    margin-left: 3px;
+.social__item+.social__item {
+    margin-left: 6px;
 }
 
-.social_type-fb {
+.social__item_type-fb {
     background-position: -43px 0;
 }
 
-.social_type-inst {
+.social__item_type-inst {
     background-position: -86px 0;
+}
+
+.social__item_type-vk:hover {
+    background-position: -129px 0;
+}
+
+.social__item_type-fb:hover {
+    background-position: -172px 0;
+}
+
+.social__item_type-inst:hover {
+    background-position: -215px 0;
 }

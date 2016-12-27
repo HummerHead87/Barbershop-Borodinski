@@ -1,10 +1,10 @@
 .section {
     background: white url("section-bg.png");
+    box-sizing: border-box;
 }
 
 .section_type-left {
     width: 50%;
-    box-sizing: border-box;
     position: relative;
     padding: 45px 40px 50px 80px;
 }
@@ -21,31 +21,33 @@
     transform: translateY(-50%);
 }
 
-.section__news {
+.section__item {
     height: 280px;
 }
 
-.section__p {
+.section__article {
     margin: 21px 0;
 }
 
-.section__p-news {
-    max-height: 72px;
+.section__paragraph {
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.section__p-date {
+.section__paragraph_small {
+    max-height: 72px;
+}
+
+.section__date {
     text-transform: lowercase;
 }
 
 .section_type-right {
     padding: 45px 80px 50px 90px;
     width: 50%;
-    box-sizing: border-box;
 }
 
-.section__photos_container {
+.section__container {
     box-sizing: border-box;
     height: 238px;
     padding-top: 23px;
@@ -59,6 +61,6 @@
     margin-left: 17px;
 }
 
-.section__photo {
+.section__image {
     border: 7px solid white;
 }

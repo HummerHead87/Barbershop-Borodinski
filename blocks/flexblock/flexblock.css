@@ -1,0 +1,16 @@
+.flexblock {
+    display: flex;
+}
+
+.flexblock_size-m {
+    padding-top: 37px;
+    padding-bottom: 20px;
+    display: flex;
+    height: 420px;
+}
+
+.flexblock_size-s {
+    padding-top: 15px;
+    padding-bottom: 65px;
+    height: 396px;
+}

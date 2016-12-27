@@ -8,10 +8,16 @@
     align-items: center;
 }
 
-.header__nav {
+header__item {}
+
+.header__item_left {
     list-style: none;
     display: flex;
     flex-grow: 1;
+}
+
+.header__item_right {
+    position: relative;
 }
 
 .header__button {
@@ -23,24 +29,20 @@
     background-color: #242424;
 }
 
-.header__button_style-menu {
+.header__button_simple {
     padding: 26px 20px;
 }
 
-.header__button-active .header__button-text {
+.header__button.is-active>.header__button-text {
     padding: 22px 0px;
     border-bottom: 4px solid white;
 }
 
-.header__signin {
-    position: relative;
-}
-
-.header__button_style-signin {
+.header__button_composite {
     padding: 26px 20px 26px 53px;
 }
 
-.header__button_style-signin::before {
+.header__button_composite::before {
     content: "";
     display: block;
     position: absolute;
@@ -51,7 +53,7 @@
     background: url("header__button-signin.png") no-repeat 0 0;
 }
 
-.header__button_style-signin:hover::before {
+.header__button_composite:hover::before {
     width: 30px;
     height: 26px;
     top: 22px;
