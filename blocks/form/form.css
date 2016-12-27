@@ -6,12 +6,8 @@
     height: 44px;
     border: 2px solid black;
     margin-bottom: 20px;
-    text-transform: uppercase;
-    color: black;
-    font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 40px;
-    font-weight: bold;
     text-shadow: 0 0 1px #a7a5a3;
     padding-left: 15px;
 }
