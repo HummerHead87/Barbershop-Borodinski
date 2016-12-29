@@ -1,0 +1,29 @@
+    .infoblock {}
+    
+    .infoblock__container {
+        justify-content: space-between;
+        padding-top: 8px;
+        padding-bottom: 40px;
+        color: #f7f4f1;
+    }
+    
+    .infoblock__item {
+        flex-basis: 300px;
+        text-align: center;
+    }
+    
+    .infoblock__header {}
+    
+    .infoblock__header::after {
+        content: "";
+        display: block;
+        width: 28px;
+        height: 28px;
+        margin: 8px auto 23px auto;
+        background: url("infoblock__header.svg") no-repeat 0 0;
+        filter: drop-shadow(0 0 1px #a7a5a3);
+    }
+    
+    .infoblock__label {
+        padding: 0 10px;
+    }
