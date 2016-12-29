@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+.section_type-right {
+    padding: 45px 80px 50px 90px;
+    width: 50%;
+}
+
 .section_type-left {
     width: 50%;
     position: relative;
@@ -40,11 +45,6 @@
 
 .section__date {
     text-transform: lowercase;
-}
-
-.section_type-right {
-    padding: 45px 80px 50px 90px;
-    width: 50%;
 }
 
 .section__container {
