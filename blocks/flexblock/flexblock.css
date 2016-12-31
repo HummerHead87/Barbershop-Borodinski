@@ -14,3 +14,7 @@
     padding-bottom: 65px;
     height: 396px;
 }
+
+.flexblock_align-center {
+    align-items: center;
+}

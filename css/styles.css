@@ -19,14 +19,3 @@
     font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
     font-weight: bold;
 }
-
-body {
-    font-size: 14px;
-    line-height: 24px;
-    background-color: black;
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    color: black;
-    text-shadow: 0 0 1px #a7a5a3;
-}

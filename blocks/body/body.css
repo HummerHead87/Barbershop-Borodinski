@@ -1,0 +1,11 @@
+.body {
+    font-size: 14px;
+    line-height: 24px;
+    background-color: black;
+    color: black;
+    text-shadow: 0 0 1px #a7a5a3;
+}
+
+.body_bg {
+    background: black url("body_bg.jpg") no-repeat 50% 0;
+}

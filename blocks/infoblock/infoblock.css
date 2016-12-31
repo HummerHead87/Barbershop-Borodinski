@@ -1,5 +1,20 @@
     .infoblock {}
     
+    .infoblock_half {
+        width: 50%;
+        outline: 1px solid red;
+    }
+    
+    .infoblock_right {
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    
+    .infoblock_theme-gray {
+        background-image: linear-gradient(to top, #969696, #7f7f7f, #969696);
+        box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.5), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.5), inset 0 0 7px 1px rgba(255, 255, 255, 0.35);
+    }
+    
     .infoblock__container {
         justify-content: space-between;
         padding-top: 8px;

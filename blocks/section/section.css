@@ -26,6 +26,11 @@
     transform: translateY(-50%);
 }
 
+.section_wide {
+    width: 1200px;
+    padding: 50px 130px;
+}
+
 .section__item {
     height: 280px;
 }
@@ -63,4 +68,24 @@
 
 .section__image {
     border: 7px solid white;
+}
+
+.section__title {
+    padding-bottom: 18px;
+}
+
+.section__title_big {
+    padding: 48px 28px;
+}
+
+.section__line {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+    flex-grow: 1;
+}
+
+.section__table {
+    margin-top: 12px;
 }

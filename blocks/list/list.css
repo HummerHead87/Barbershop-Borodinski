@@ -1,0 +1,50 @@
+.list {
+    line-height: 22px;
+    list-style: none;
+}
+
+.list_horizontal {
+    display: flex;
+}
+
+.list_compressed {
+    line-height: 22px;
+}
+
+.list_not-compressed {
+    line-height: 37px;
+}
+
+.list__item {
+    padding-left: 20px;
+    padding-right: 18px;
+    position: relative;
+}
+
+.list__item_long {
+    padding-left: 28px;
+}
+
+.list__item_no-ls {
+    padding-left: 0;
+}
+
+.list__item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: url("list__item.png") no-repeat 0 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.list__item_no-ls::before {
+    display: none;
+}
+
+.list__item.is-active>.link {
+    color: #aba9a7;
+}

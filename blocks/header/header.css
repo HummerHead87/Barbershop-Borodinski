@@ -21,7 +21,7 @@ header__item {}
 }
 
 .header__button {
-    line-height: 20px;
+    line-height: 72px;
     font-size: 16px;
 }
 
@@ -30,7 +30,7 @@ header__item {}
 }
 
 .header__button_simple {
-    padding: 26px 20px;
+    padding: 0px 20px;
 }
 
 .header__button.is-active>.header__button-text {
@@ -39,7 +39,7 @@ header__item {}
 }
 
 .header__button_composite {
-    padding: 26px 20px 26px 53px;
+    padding: 0 20px 0 53px;
 }
 
 .header__button_composite::before {
@@ -59,4 +59,8 @@ header__item {}
     top: 22px;
     left: 12px;
     background: url("header__button-signin-hovered.png") no-repeat 0 0;
+}
+
+.header__logo {
+    vertical-align: middle;
 }

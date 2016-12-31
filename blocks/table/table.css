@@ -1,0 +1,22 @@
+.table {
+    display: table;
+    border-collapse: collapse;
+}
+
+.table__row {
+    display: table-row
+}
+
+.table__cell {
+    display: table-cell;
+    width: 230px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+
+.table__cell_centered {
+    padding: 0;
+    text-align: center;
+}
