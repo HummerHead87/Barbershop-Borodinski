@@ -5,7 +5,6 @@
 .flexblock_size-m {
     padding-top: 37px;
     padding-bottom: 20px;
-    display: flex;
     height: 420px;
 }
 
@@ -17,4 +16,8 @@
 
 .flexblock_align-center {
     align-items: center;
+}
+
+.flexblock_wrap {
+    flex-wrap: wrap;
 }

@@ -2,17 +2,28 @@
     
     .infoblock_half {
         width: 50%;
-        outline: 1px solid red;
+        box-sizing: border-box;
+    }
+    
+    .infoblock__paragraph {
+        padding-top: 5px;
+        padding-right: 80px;
+        padding-bottom: 22px;
     }
     
     .infoblock_right {
         padding-left: 10px;
-        box-sizing: border-box;
     }
     
     .infoblock_theme-gray {
         background-image: linear-gradient(to top, #969696, #7f7f7f, #969696);
         box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.5), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.5), inset 0 0 7px 1px rgba(255, 255, 255, 0.35);
+    }
+    
+    .infoblock__paragraph {
+        padding-top: 5px;
+        padding-right: 80px;
+        padding-bottom: 22px;
     }
     
     .infoblock__container {
@@ -23,6 +34,10 @@
     }
     
     .infoblock__item {
+        margin-top: 40px;
+    }
+    
+    .infoblock__column {
         flex-basis: 300px;
         text-align: center;
     }

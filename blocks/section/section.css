@@ -27,8 +27,7 @@
 }
 
 .section_wide {
-    width: 1200px;
-    padding: 50px 130px;
+    padding: 52px 130px;
 }
 
 .section__item {
@@ -71,11 +70,11 @@
 }
 
 .section__title {
-    padding-bottom: 18px;
+    padding-bottom: 14px;
 }
 
 .section__title_big {
-    padding: 48px 28px;
+    padding: 8px 28px;
 }
 
 .section__line {
