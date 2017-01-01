@@ -25,7 +25,7 @@ header__item {}
     font-size: 16px;
 }
 
-.header__button:hover {
+.header__button:not(.is-active):hover {
     background-color: #242424;
 }
 

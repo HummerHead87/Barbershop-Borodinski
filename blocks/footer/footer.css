@@ -4,6 +4,10 @@
     color: white;
 }
 
+.footer_shaded {
+    box-shadow: inset 0px 45px 40px -34px rgba(0, 0, 0, 1);
+}
+
 .footer__container {
     position: relative;
 }
@@ -37,6 +41,7 @@
 
 .footer__button:hover {
     /*  background-image: linear-gradient(to top, #969696, #7f7f7f, #969696); */
-    background-color: #888888;
+    /*  background-color: #888888; */
+    background-color: white;
     color: black;
 }
