@@ -5,13 +5,13 @@
 .flexblock_size-m {
     padding-top: 37px;
     padding-bottom: 20px;
-    height: 420px;
+    min-height: 420px;
 }
 
 .flexblock_size-s {
     padding-top: 15px;
     padding-bottom: 65px;
-    height: 396px;
+    min-height: 396px;
 }
 
 .flexblock_align-center {

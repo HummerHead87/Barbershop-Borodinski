@@ -31,20 +31,19 @@
 }
 
 .section__item {
-    height: 280px;
+    margin-bottom: 28px;
 }
 
 .section__article {
     margin: 21px 0;
 }
 
-.section__paragraph {
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
+.section__paragraph {}
 
 .section__paragraph_small {
     max-height: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .section__date {
@@ -57,11 +56,15 @@
     padding-top: 23px;
 }
 
-.section__buttons {
+.section__button:hover {
+    background-color: #663d15;
+}
+
+.section__button_inline {
     display: inline-block;
 }
 
-.section__buttons+.section__buttons {
+.section__button_inline+.section__button_inline {
     margin-left: 17px;
 }
 
