@@ -1,10 +1,5 @@
     .infoblock {}
     
-    .infoblock_half {
-        width: 50%;
-        box-sizing: border-box;
-    }
-    
     .infoblock__paragraph {
         padding-top: 5px;
         padding-right: 80px;
@@ -15,7 +10,7 @@
         padding-left: 10px;
     }
     
-    .infoblock_theme-gray {
+    .infoblock_shaded {
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
         box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.5), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.5), inset 0 0 7px 1px rgba(255, 255, 255, 0.35), 0 0 10px 2px rgba(255, 255, 255, 0.5);
     }

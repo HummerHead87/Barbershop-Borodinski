@@ -2,16 +2,20 @@
     display: flex;
 }
 
-.flexblock_size-m {
+.flexblock_size_m {
     padding-top: 37px;
     padding-bottom: 20px;
     min-height: 420px;
 }
 
-.flexblock_size-s {
+.flexblock_size_s {
     padding-top: 15px;
     padding-bottom: 65px;
     min-height: 396px;
+}
+
+.flexblock_size_xs {
+    width: 460px;
 }
 
 .flexblock_align-center {
@@ -20,4 +24,8 @@
 
 .flexblock_wrap {
     flex-wrap: wrap;
+}
+
+.flexblock_space_between {
+    justify-content: space-between;
 }
