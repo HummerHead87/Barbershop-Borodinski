@@ -6,12 +6,12 @@
     display: flex;
 }
 
-.list_compressed {
-    line-height: 24px;
+.list_not-compressed>.list__item {
+    margin: 13px 0;
 }
 
-.list_not-compressed {
-    line-height: 37px;
+.list__container {
+    margin: 24px 0;
 }
 
 .list__item {
@@ -26,6 +26,7 @@
 
 .list__item_no-ls {
     padding-left: 0;
+    padding-right: 16px;
 }
 
 .list__item::before {

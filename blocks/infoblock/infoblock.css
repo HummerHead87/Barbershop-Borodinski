@@ -1,11 +1,5 @@
     .infoblock {}
     
-    .infoblock__paragraph {
-        padding-top: 5px;
-        padding-right: 80px;
-        padding-bottom: 22px;
-    }
-    
     .infoblock_right {
         padding-left: 10px;
     }
@@ -16,13 +10,11 @@
     }
     
     .infoblock__paragraph {
-        padding-top: 5px;
         padding-right: 80px;
         padding-bottom: 22px;
     }
     
     .infoblock__container {
-        justify-content: space-between;
         padding-top: 8px;
         padding-bottom: 40px;
         color: #f7f4f1;
@@ -30,11 +22,6 @@
     
     .infoblock__item {
         margin-top: 40px;
-    }
-    
-    .infoblock__column {
-        flex-basis: 300px;
-        text-align: center;
     }
     
     .infoblock__header {}

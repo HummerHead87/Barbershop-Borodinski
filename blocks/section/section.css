@@ -126,10 +126,6 @@
     flex-grow: 1;
 }
 
-.section__table {
-    margin-top: 12px;
-}
-
 .section__info {
     padding: 32px 0 16px 80px;
 }
