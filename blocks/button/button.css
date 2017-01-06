@@ -11,18 +11,23 @@
     background-color: black;
 }
 
-.button_size-m {
+.button_size_m {
     width: 140px;
     line-height: 44px;
 }
 
-.button_size-l {
+.button_size_l {
     width: 300px;
     line-height: 44px;
 }
 
 .button_size_s {
     width: 78px;
+    line-height: 44px;
+}
+
+.button_size_s1 {
+    width: 112px;
     line-height: 44px;
 }
 

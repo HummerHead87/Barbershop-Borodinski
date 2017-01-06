@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="blocks/infoblock/infoblock.css">
     <link rel="stylesheet" href="blocks/social/social.css">
     <link rel="stylesheet" href="blocks/input/input.css">
+    <link rel="stylesheet" href="blocks/product/product.css">
 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
 
@@ -72,7 +73,7 @@
     </header>
 
     <section class="section wrapper__container wrapper_wide section_wide">
-        <h1 class="title section__title">Средства для ухода</h1>
+        <h1 class="title">Средства для ухода</h1>
         <ul class="list list_horizontal">
             <li class="list__item list__item_long list__item_no-ls">
                 <a class="link" href="./index.html">Главная</a>
@@ -88,7 +89,7 @@
         <div class="flexblock">
             <div class="flexblock__item flexblock__item_size_s flexblock__item_type_1">
                 <div class="form" action="#" method="POST">
-                    <div class="infoblock__item">
+                    <div class="infoblock__item_type_2">
                         <h2 class="title title_size_m">Производители:</h2>
 
                         <ul class="list  list__container">
@@ -119,7 +120,7 @@
                         </ul>
                     </div>
 
-                    <div class="infoblock__item">
+                    <div class="infoblock__item_type_2">
                         <h2 class="title title_size_m">Группы товаров:</h2>
                         <ul class="list list__container">
                             <li class="input__item">
@@ -136,10 +137,16 @@
                             </li>
                         </ul>
                     </div>
+                    <input class="button button_size_s1 button_shaded section__button infoblock__item" type="submit" value="Показать">
                 </div>
             </div>
             <div class="flexblock__item flexblock__item_expanding infoblock__item">
-
+                <div class="product">
+                    Набор для путешествий<br>«BAXTER OF CALIFORNIA»
+                    <img class="product__image" src="./blocks/product/product__image-baxter.jpg" alt="Набор для путешествий«BAXTER OF CALIFORNIA»" width="220" height="165">
+                    <label class="product__label section__label infoblock_shaded" for="">2 900 руб.</label>
+                    <input class="product__button button button_size_s button_shaded section__button infoblock_shaded" type="submit" value="Купить">
+                </div>
             </div>
         </div>
     </section>

@@ -1,5 +1,5 @@
 .section {
-    background: white url("section-bg.png");
+    background: #f7f4f1 url("section-bg.png");
     box-sizing: border-box;
 }
 
@@ -48,20 +48,14 @@
 
 .section__paragraph {}
 
-.section__paragraph_small {
-    max-height: 72px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 .section__date {
     text-transform: lowercase;
 }
 
 .section__container {
     box-sizing: border-box;
-    height: 238px;
-    padding-top: 23px;
+    height: 224px;
+    padding-top: 9px;
 }
 
 .section__button:hover {
@@ -99,24 +93,7 @@
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-.section__title {
-    padding-bottom: 14px;
-}
-
-.section__title_big {
-    padding: 8px 28px;
-}
-
 .section__title_small {}
-
-.section__title_right {
-    float: right;
-    padding-right: 12px;
-}
-
-.section__title_color_light {
-    color: #aeaeae;
-}
 
 .section__line {
     content: "";
@@ -134,5 +111,5 @@
     text-align: center;
     line-height: 44px;
     background-color: white;
-    padding: 0 27px;
+    width: 110px;
 }

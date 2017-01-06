@@ -2,10 +2,6 @@
     display: flex;
 }
 
-.flexblock_type_1 {
-    padding: 40px 0;
-}
-
 .flexblock_size_m {
     padding-top: 37px;
     padding-bottom: 20px;
@@ -16,10 +12,6 @@
     padding-top: 15px;
     padding-bottom: 65px;
     min-height: 396px;
-}
-
-.flexblock_size_xs {
-    width: 460px;
 }
 
 .flexblock_align-center {
@@ -35,7 +27,7 @@
 }
 
 .flexblock__item {
-    outline: 1px solid fuchsia;
+    outline: 1px solid red;
 }
 
 .flexblock__item_expanding {
@@ -54,4 +46,6 @@
     flex-basis: 300px;
 }
 
-.flexblock__item_type_1 {}
+.flexblock__item_size_l {
+    width: 460px;
+}

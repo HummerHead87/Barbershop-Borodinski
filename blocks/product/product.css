@@ -1,0 +1,29 @@
+.product {
+    line-height: 18px;
+    text-transform: none;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+    box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.5), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.5), inset 0 0 7px 1px rgba(255, 255, 255, 0.35), 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    height: 286px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 180px 17px 0 17px;
+}
+
+.product__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product__label {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+.product__button {
+    position: absolute;
+    bottom: 16px;
+    left: 126px;
+}
