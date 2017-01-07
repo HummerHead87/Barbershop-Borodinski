@@ -34,6 +34,10 @@
     flex-grow: 1;
 }
 
+.flexblock__item_no-shrink {
+    flex-shrink: 0;
+}
+
 .flexblock__item_align_center {
     text-align: center;
 }
