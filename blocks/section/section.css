@@ -58,18 +58,6 @@
     padding-top: 9px;
 }
 
-.section__button:hover {
-    background-color: #663d15;
-}
-
-.section__button_inline {
-    display: inline-block;
-}
-
-.section__button_inline+.section__button_inline {
-    margin-left: 17px;
-}
-
 .section__image {
     display: block;
 }

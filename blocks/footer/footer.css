@@ -33,8 +33,3 @@
 .footer__socials {
     margin: 0 auto;
 }
-
-.footer__button:hover {
-    background-color: white;
-    color: black;
-}

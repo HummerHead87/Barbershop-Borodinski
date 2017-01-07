@@ -107,7 +107,7 @@
                     <p class="section__date">18 января</p>
                 </article>
             </div>
-            <a class="button button_size_m button_shaded section__button" href="javascript:;">Все новости</a>
+            <a class="button button_size_m button_shaded button_theme_main" href="javascript:;">Все новости</a>
         </section>
         <section class="section section_half section_type_right">
             <h2 class="title">Фотогалерея</h2>
@@ -116,8 +116,10 @@
                     <img class="section__image section__image_theme_light" src="blocks/section/section__image.jpg" alt="Photo" width="286" height="164">
                 </a>
             </div>
-            <a class="button button_size_m section__button_inline button_shaded section__button" href="javascript:;">Назад</a>
-            <a class="button button_size_m section__button_inline button_shaded section__button" href="javascript:;">Вперед</a>
+            <div class="flexblock">
+                <a class="button button_size_m button_shaded button_theme_main button_allocated_long" href="javascript:;">Назад</a>
+                <a class="button button_size_m button_shaded button_theme_main button_allocated_long" href="javascript:;">Вперед</a>
+            </div>
         </section>
     </div>
 
@@ -130,8 +132,10 @@
             <p class="section__article">
                 ВРЕМЯ РАБОТЫ:<br> ПН — ПТ: С 10:00 ДО 22:00<br> СБ — ВС: С 10:00 ДО 19:00
             </p>
-            <a class="button button_size_m button_shaded section__button section__button_inline" href="javascript:;">Как проехать</a>
-            <a class="button button_size_m button_shaded section__button section__button_inline" href="javascript:;">Обратная связь</a>
+            <div class="flexblock">
+                <a class="button button_size_m button_shaded button_theme_main button_allocated_long" href="javascript:;">Как проехать</a>
+                <a class="button button_size_m button_shaded button_theme_main button_allocated_long" href="javascript:;">Обратная связь</a>
+            </div>
         </section>
         <section class="section section_half section_type_right">
             <h2 class="title">Записаться</h2>
@@ -139,11 +143,13 @@
                 УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
             </p>
             <form class="form" action="#" method="POST">
-                <input class="form__input" type="date" placeholder="Дата" name="date" required>
-                <input class="form__input" type="time" placeholder="Время" name="time" required>
-                <input class="form__input" type="text" placeholder="Ваше имя" name="user-name" required>
-                <input class="form__input" type="tel" placeholder="Телефон" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" name="tel" required>
-                <input class="button button_size_l button_shaded section__button" type="submit" value="Отправить">
+                <div class="form__container">
+                    <input class="form__input" type="date" placeholder="Дата" name="date" required>
+                    <input class="form__input" type="time" placeholder="Время" name="time" required>
+                    <input class="form__input" type="text" placeholder="Ваше имя" name="user-name" required>
+                    <input class="form__input" type="tel" placeholder="Телефон" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" name="tel" required>
+                    <input class="button button_size_l button_shaded button_theme_main" type="submit" value="Отправить">
+                </div>
             </form>
         </section>
     </div>
@@ -155,18 +161,17 @@
             </div>
             <div class="footer__item footer__item_right">
                 <p class="footer__p">Разработано:</p>
-                <a class="button button_size_m button_shaded infoblock_shaded footer__button" href="https://htmlacademy.ru/" target="_blank">htmlacademy.ru</a>
+                <a class="button button_size_m button_shaded infoblock_shaded button_theme_bw" href="https://htmlacademy.ru/" target="_blank">htmlacademy.ru</a>
             </div>
             <div class="footer__socials">
                 <p class="footer__p">Давайте дружить!</p>
                 <div class="social">
-                    <a class="social__item social__item_type-vk infoblock_shaded footer__button" href="javascript:;"></a>
-                    <a class="social__item social__item_type-fb infoblock_shaded footer__button" href="javascript:;"></a>
-                    <a class="social__item social__item_type-inst infoblock_shaded footer__button" href="javascript:;"></a>
+                    <a class="social__item social__item_type-vk infoblock_shaded button_theme_bw" href="javascript:;"></a>
+                    <a class="social__item social__item_type-fb infoblock_shaded button_theme_bw" href="javascript:;"></a>
+                    <a class="social__item social__item_type-inst infoblock_shaded button_theme_bw" href="javascript:;"></a>
                 </div>
             </div>
         </div>
-
     </footer>
 
 </body>

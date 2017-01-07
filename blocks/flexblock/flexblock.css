@@ -26,9 +26,7 @@
     justify-content: space-between;
 }
 
-.flexblock__item {
-    outline: 1px solid red;
-}
+.flexblock__item {}
 
 .flexblock__item_expanding {
     flex-grow: 1;
