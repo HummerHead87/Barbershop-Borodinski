@@ -72,14 +72,14 @@
         </div>
     </header>
 
-    <section class="section wrapper__container wrapper_wide section_wide">
+    <section class="section wrapper__container wrapper__container_wide section_wide">
         <h1 class="title">Средства для ухода</h1>
         <ul class="list list_horizontal">
             <li class="list__item list__item_long list__item_no-ls">
                 <a class="link" href="./index.html">Главная</a>
             </li>
             <li class="list__item list__item_long">
-                <span class="link">Магазин</span>
+                <a class="link" href="javascript:;">Магазин</a>
             </li>
             <li class="list__item list__item_long is-active">
                 <span class="link">Средства для ухода</span>
@@ -88,33 +88,33 @@
 
         <div class="flexblock">
             <div class="flexblock__item flexblock__item_size_s flexblock__item_no-shrink">
-                <div class="form" action="#" method="POST">
+                <div class="form" action="javascript:;" method="POST">
                     <div class="infoblock__item_type_2">
                         <h2 class="title title_size_m">Производители:</h2>
 
                         <ul class="list list__container">
                             <li class="input__item">
-                                <input class="input__input" type="checkbox" id="item1" name="item" checked>
+                                <input class="input__field" type="checkbox" id="item1" name="item" checked>
                                 <label class="input__label input__label_checkbox" for="item1">Baxter of California</label>
                             </li>
                             <li class="input__item">
-                                <input class="input__input" type="checkbox" id="item2" name="item">
+                                <input class="input__field" type="checkbox" id="item2" name="item">
                                 <label class="input__label input__label_checkbox" for="item2">Mr Natty</label>
                             </li>
                             <li class="input__item">
-                                <input class="input__input" type="checkbox" id="item3" name="item" checked>
+                                <input class="input__field" type="checkbox" id="item3" name="item" checked>
                                 <label class="input__label input__label_checkbox" for="item3">Suavecito</label>
                             </li>
                             <li class="input__item">
-                                <input class="input__input" type="checkbox" id="item4" name="item">
+                                <input class="input__field" type="checkbox" id="item4" name="item">
                                 <label class="input__label input__label_checkbox" for="item4">Malin+Goetz</label>
                             </li>
                             <li class="input__item">
-                                <input class="input__input" type="checkbox" id="item5" name="item">
+                                <input class="input__field" type="checkbox" id="item5" name="item">
                                 <label class="input__label input__label_checkbox" for="item5">Murray’s</label>
                             </li>
                             <li class="input__item">
-                                <input class="input__input" type="checkbox" id="item6" name="item" checked>
+                                <input class="input__field" type="checkbox" id="item6" name="item" checked>
                                 <label class="input__label input__label_checkbox" for="item6">American Crew</label>
                             </li>
                         </ul>
@@ -124,15 +124,15 @@
                         <h2 class="title title_size_m">Группы товаров:</h2>
                         <ul class="list list__container">
                             <li class="input__item">
-                                <input class="input__input" type="radio" id="group1" name="group">
+                                <input class="input__field" type="radio" id="group1" name="group">
                                 <label class="input__label input__label_radio" for="group1">Бритвенные принадлежности</label>
                             </li>
                             <li class="input__item">
-                                <input class="input__input" type="radio" id="group2" name="group">
+                                <input class="input__field" type="radio" id="group2" name="group">
                                 <label class="input__label input__label_radio" for="group2">Средства для ухода</label>
                             </li>
                             <li class="input__item">
-                                <input class="input__input" type="radio" id="group3" name="group">
+                                <input class="input__field" type="radio" id="group3" name="group">
                                 <label class="input__label input__label_radio" for="group3">Аксессуары</label>
                             </li>
                         </ul>
@@ -145,68 +145,80 @@
                     <div class="product product__container section__image_shaded">
                         <a href="./shop-item-baxter.html" class="link">
                             <div class="product__label_type">Набор для путешествий</div>
-                            <div class="product__label_vendor">«Baxter of California»</div>
+                            <div class="product__label">«Baxter of California»</div>
                         </a>
                         <a href="./shop-item-baxter.html" class="link">
                             <img class="product__image" src="./blocks/product/product__image_travel-set-baxter.jpg" alt="Набор для путешествий «Baxter of California»" width="220" height="165">
                         </a>
-                        <label class="product__label_price section__label" for="">2 900 руб.</label>
-                        <input class="product__button button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        <div class="flexblock product__container_buy">
+                            <label class="section__label" for="">2 900 руб.</label>
+                            <input class="button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        </div>
                     </div>
                     <div class="product product__container section__image_shaded">
                         <a href="javascript:;" class="link">
                             <div class="product__label_type">Увлажняющий кондиционер</div>
-                            <div class="product__label_vendor">«Baxter of California»</div>
+                            <div class="product__label">«Baxter of California»</div>
                         </a>
                         <a href="javascript:;" class="link">
                             <img class="product__image" src="./blocks/product/product__image_conditioner-baxter.jpg" alt="Увлажняющий кондиционер «Baxter of California»" width="220" height="165">
                         </a>
-                        <label class="product__label_price section__label" for="">750 руб.</label>
-                        <input class="product__button button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        <div class="flexblock product__container_buy">
+                            <label class="section__label" for="">750 руб.</label>
+                            <input class="button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        </div>
                     </div>
                     <div class="product product__container section__image_shaded">
                         <a href="javascript:;" class="link">
                             <div class="product__label_type">Гель для волос</div>
-                            <div class="product__label_vendor">«SUAVECITO»</div>
+                            <div class="product__label">«SUAVECITO»</div>
                         </a>
                         <a href="javascript:;" class="link">
                             <img class="product__image" src="./blocks/product/product__image_gel-suavecito.jpg" alt="Гель для волос «SUAVECITO»" width="220" height="165">
                         </a>
-                        <label class="product__label_price section__label" for="">290 руб.</label>
-                        <input class="product__button button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        <div class="flexblock product__container_buy">
+                            <label class="section__label" for="">290 руб.</label>
+                            <input class="button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        </div>
                     </div>
                     <div class="product product__container section__image_shaded">
                         <a href="javascript:;" class="link">
                             <div class="product__label_type">Глина для укладки волос</div>
-                            <div class="product__label_vendor">«American crew»</div>
+                            <div class="product__label">«American crew»</div>
                         </a>
                         <a href="javascript:;" class="link">
                             <img class="product__image" src="./blocks/product/product__image_clay-american-crew.jpg" alt="Глина для укладки волос «American crew»" width="220" height="165">
                         </a>
-                        <label class="product__label_price section__label" for="">500 руб.</label>
-                        <input class="product__button button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        <div class="flexblock product__container_buy">
+                            <label class="section__label" for="">500 руб.</label>
+                            <input class="button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        </div>
                     </div>
                     <div class="product product__container section__image_shaded">
                         <a href="javascript:;" class="link">
                             <div class="product__label_type">Гель для волос</div>
-                            <div class="product__label_vendor">«American crew»</div>
+                            <div class="product__label">«American crew»</div>
                         </a>
                         <a href="javascript:;" class="link">
                             <img class="product__image" src="./blocks/product/product__image_gel-american-crew.jpg" alt="Гель для волос «American crew»" width="220" height="165">
                         </a>
-                        <label class="product__label_price section__label" for="">300 руб.</label>
-                        <input class="product__button button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        <div class="flexblock product__container_buy">
+                            <label class="section__label" for="">300 руб.</label>
+                            <input class="button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        </div>
                     </div>
                     <div class="product product__container section__image_shaded">
                         <a href="javascript:;" class="link">
                             <div class="product__label_type">Набор для бритья</div>
-                            <div class="product__label_vendor">«Baxter of California»</div>
+                            <div class="product__label">«Baxter of California»</div>
                         </a>
                         <a href="javascript:;" class="link">
                             <img class="product__image" src="./blocks/product/product__image_shaving-set-baxter.jpg" alt="Набор для бритья «BAXTER OF CALIFORNIA»" width="220" height="165">
                         </a>
-                        <label class="product__label_price section__label" for="">3 900 руб.</label>
-                        <input class="product__button button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        <div class="flexblock product__container_buy">
+                            <label class="section__label" for="">3 900 руб.</label>
+                            <input class="button button_size_s button_shaded button_theme_main infoblock_shaded" type="submit" value="Купить">
+                        </div>
                     </div>
                 </div>
                 <div class="flexblock infoblock__item">
@@ -219,7 +231,7 @@
         </div>
     </section>
 
-    <footer class="footer footer_shaded wrapper__container wrapper_wide ">
+    <footer class="footer footer_shaded wrapper__container wrapper__container_wide ">
         <div class="footer__container wrapper__container">
             <div class="footer__item footer__item_left">
                 БАРБЕРШОП «БОРОДИНСКИЙ»<br>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br><a class="link_theme-light" href="javascript:;">КАК НАС НАЙТИ?</a><br>ТЕЛЕФОН: +7 (495) 666-02-66

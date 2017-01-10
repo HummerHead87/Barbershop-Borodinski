@@ -32,6 +32,10 @@
     opacity: 1;
 }
 
+.form__input:-moz-placeholder {
+    opacity: 1;
+}
+
 .form__input:-ms-input-placeholder {
     color: black;
 }

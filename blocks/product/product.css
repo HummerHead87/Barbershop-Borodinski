@@ -1,10 +1,6 @@
 .product {
     line-height: 18px;
     background-color: white;
-    /*
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
-    box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.5), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.5), inset 0 0 7px 1px rgba(255, 255, 255, 0.35), 0 0 20px 0px rgba(0, 0, 0, 0.2);
-    */
     width: 220px;
     height: 286px;
     box-sizing: border-box;
@@ -16,24 +12,21 @@
     margin: 10px 0;
 }
 
+.product__container_buy {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .product__image {
     position: absolute;
     top: 0;
     left: 0;
 }
 
+.product__label {}
+
 .product__label_type {
     text-transform: none;
-}
-
-.product__label_price {
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-}
-
-.product__button {
-    position: absolute;
-    bottom: 16px;
-    left: 126px;
 }

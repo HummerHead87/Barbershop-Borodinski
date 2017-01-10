@@ -46,8 +46,6 @@
     margin-bottom: 36px;
 }
 
-.section__paragraph {}
-
 .section__date {
     text-transform: lowercase;
 }
@@ -60,6 +58,8 @@
 
 .section__image {
     display: block;
+    width: 286px;
+    height: 164px;
 }
 
 .section__image_size_l {
@@ -80,8 +80,6 @@
     margin: 12px 0;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
-
-.section__title_small {}
 
 .section__line {
     content: "";
