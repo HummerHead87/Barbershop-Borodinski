@@ -8,16 +8,14 @@
     align-items: middle;
 }
 
-header__item {}
+.header__item {
+    position: relative;
+}
 
 .header__item_left {
     list-style: none;
     display: flex;
     flex-grow: 1;
-}
-
-.header__item_right {
-    position: relative;
 }
 
 .header__button {

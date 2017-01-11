@@ -82,8 +82,6 @@
 }
 
 .section__line {
-    content: "";
-    display: block;
     height: 2px;
     background-color: black;
     flex-grow: 1;
