@@ -11,7 +11,7 @@
     background: black url("social__item.png") no-repeat;
 }
 
-.social__item+.social__item {
+.social__item + .social__item {
     margin-left: 6px;
 }
 

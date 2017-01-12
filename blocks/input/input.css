@@ -35,7 +35,7 @@
     box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.5), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.5), inset 0 0 7px 1px rgba(255, 255, 255, 0.35), 0 0 10px 2px rgba(255, 255, 255, 0.5);
 }
 
-.input__field:checked+.input__label_checkbox::before {
+.input__field:checked + .input__label_checkbox::before {
     color: black;
     content: "\2716";
     font-size: 15px;
@@ -43,16 +43,16 @@
 }
 
 .input__label_radio::before {
-    border-radius: 50%;
+    border-radius: 50%;    
 }
 
-.input__field:checked+.input__label_radio::before {
+.input__field:checked + .input__label_radio::before {
     color: black;
     font-size: 18px;
     line-height: 13px;
     content: "\0025CF";
 }
 
-.input__field:disabled+.input__label {
+.input__field:disabled + .input__label {
     opacity: 0.3;
 }

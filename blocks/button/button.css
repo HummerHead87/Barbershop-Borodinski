@@ -58,10 +58,10 @@
     color: black;
 }
 
-.button_allocated+.button_allocated {
+.button_allocated + .button_allocated {
     margin-left: 7px;
 }
 
-.button_allocated_long+.button_allocated_long {
+.button_allocated_long + .button_allocated_long {
     margin-left: 20px;
 }
