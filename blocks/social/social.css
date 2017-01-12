@@ -1,5 +1,6 @@
 .social {
     font-size: 0;
+    text-align: center;
 }
 
 .social__item {
@@ -10,26 +11,31 @@
     background: black url("social__item.png") no-repeat;
 }
 
-.social__item+.social__item {
+.social__item + .social__item {
     margin-left: 6px;
 }
 
 .social__item_type-fb {
-    background-position: -43px 0;
+    background-position: -44px 0;
 }
 
 .social__item_type-inst {
     background-position: -86px 0;
 }
 
+.social__item:hover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("social__item.png");
+    background-repeat: no-repeat, no-repeat;
+}
+
 .social__item_type-vk:hover {
-    background-position: -129px 0;
+    background-position: 0 0, -129px 0;
 }
 
 .social__item_type-fb:hover {
-    background-position: -172px 0;
+    background-position: 0 0, -173px 0;
 }
 
 .social__item_type-inst:hover {
-    background-position: -215px 0;
+    background-position: 0 0, -216px 0;
 }

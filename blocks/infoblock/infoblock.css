@@ -1,29 +1,47 @@
-    .infoblock {}
-    
-    .infoblock__container {
-        justify-content: space-between;
-        padding-top: 8px;
-        padding-bottom: 40px;
-        color: #f7f4f1;
-    }
-    
-    .infoblock__item {
-        flex-basis: 300px;
-        text-align: center;
-    }
-    
-    .infoblock__header {}
-    
-    .infoblock__header::after {
-        content: "";
-        display: block;
-        width: 28px;
-        height: 28px;
-        margin: 8px auto 23px auto;
-        background: url("infoblock__header.svg") no-repeat 0 0;
-        filter: drop-shadow(0 0 1px #a7a5a3);
-    }
-    
-    .infoblock__label {
-        padding: 0 10px;
-    }
+.infoblock {}
+
+.infoblock_right {
+    padding-left: 10px;
+}
+
+.infoblock_shaded {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+    box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.5), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.5), inset 0 0 7px 1px rgba(255, 255, 255, 0.35), 0 0 10px 2px rgba(255, 255, 255, 0.5);
+}
+
+.infoblock__paragraph {
+    padding-right: 80px;
+    padding-bottom: 22px;
+}
+
+.infoblock__container {
+    padding-top: 8px;
+    padding-bottom: 40px;
+    color: #f7f4f1;
+}
+
+.infoblock__item {
+    margin-top: 40px;
+}
+
+.infoblock__item_type_2 {
+    margin-top: 45px;
+    margin-bottom: 52px;
+    padding-right: 70px;
+}
+
+.infoblock__header {}
+
+.infoblock__header::after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 8px auto 23px auto;
+    background: url("infoblock__header.svg") no-repeat 0 0;
+    filter: drop-shadow(0 0 1px #a7a5a3);
+}
+
+.infoblock__label {
+    padding: 0 10px;
+}

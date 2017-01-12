@@ -1,0 +1,58 @@
+.input {}
+
+.input__item {
+    position: relative;
+    margin: 19.5px 0;
+    line-height: 18px;
+}
+
+.input__field {
+    display: none;
+}
+
+.input__label {
+    display: block;
+    padding-left: 44px;
+}
+
+.input__label:hover {
+    color: #663d15;
+}
+
+.input__label::before {
+    text-shadow: none;
+    text-align: center;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    height: 16px;
+    width: 16px;
+    border: 2px solid black;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+    box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.5), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.5), inset 0 0 7px 1px rgba(255, 255, 255, 0.35), 0 0 10px 2px rgba(255, 255, 255, 0.5);
+}
+
+.input__field:checked + .input__label_checkbox::before {
+    color: black;
+    content: "\2716";
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.input__label_radio::before {
+    border-radius: 50%;    
+}
+
+.input__field:checked + .input__label_radio::before {
+    color: black;
+    font-size: 18px;
+    line-height: 13px;
+    content: "\0025CF";
+}
+
+.input__field:disabled + .input__label {
+    opacity: 0.3;
+}

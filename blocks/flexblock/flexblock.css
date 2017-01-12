@@ -2,15 +2,50 @@
     display: flex;
 }
 
-.flexblock_size-m {
+.flexblock_size_m {
     padding-top: 37px;
     padding-bottom: 20px;
-    display: flex;
-    height: 420px;
+    min-height: 420px;
 }
 
-.flexblock_size-s {
+.flexblock_size_s {
     padding-top: 15px;
     padding-bottom: 65px;
-    height: 396px;
+    min-height: 396px;
+}
+
+.flexblock_align-center {
+    align-items: center;
+}
+
+.flexblock_wrap {
+    flex-wrap: wrap;
+}
+
+.flexblock_space_between {
+    justify-content: space-between;
+}
+
+.flexblock__item {
+    text-align: center;
+}
+
+.flexblock__item_expanding {
+    flex-grow: 1;
+}
+
+.flexblock__item_no-shrink {
+    flex-shrink: 0;
+}
+
+.flexblock__item_size_s {
+    flex-basis: 240px;
+}
+
+.flexblock__item_size_m {
+    flex-basis: 300px;
+}
+
+.flexblock__item_size_l {
+    width: 460px;
 }

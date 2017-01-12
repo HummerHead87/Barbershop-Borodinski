@@ -7,20 +7,61 @@
     border: none;
     text-align: center;
     line-height: 40px;
-    text-shadow: 0 0 1px #a7a5a3;
     background-color: black;
 }
 
-.button_size-m {
+.button_size_m {
     width: 140px;
     line-height: 44px;
 }
 
-.button_size-l {
+.button_size_l {
     width: 300px;
+    line-height: 44px;
+    height: 44px;
+}
+
+.button_size_s {
+    width: 78px;
     line-height: 44px;
 }
 
-.button:hover {
+.button_size_s1 {
+    width: 112px;
+    line-height: 44px;
+}
+
+.button_size_xs {
+    width: 43px;
+    line-height: 43px;
+}
+
+.button_shaded:hover,
+.button_shaded:active {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+    box-shadow: inset -7px -7px 7px -3px rgba(0, 0, 0, 0.7), inset 7px 7px 7px -3px rgba(255, 255, 255, 0.7), inset 0 0 7px 1px rgba(255, 255, 255, 0.35), 0 0 10px 2px rgba(255, 255, 255, 0.5);
+}
+
+.button_theme_bw:hover,
+.button_theme_bw:active {
+    background-color: white;
+    color: black;
+}
+
+.button_theme_main:hover,
+.button_theme_main:active {
     background-color: #663d15;
+}
+
+.button_theme_main.is-current {
+    background-color: white;
+    color: black;
+}
+
+.button_allocated + .button_allocated {
+    margin-left: 7px;
+}
+
+.button_allocated_long + .button_allocated_long {
+    margin-left: 20px;
 }

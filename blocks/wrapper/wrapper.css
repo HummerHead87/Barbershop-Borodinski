@@ -4,3 +4,7 @@
     margin: 0 auto;
     width: 940px;
 }
+
+.wrapper__container_wide {
+    width: 1200px;
+}

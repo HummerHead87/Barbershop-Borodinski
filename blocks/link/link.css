@@ -1,4 +1,7 @@
-.link {}
+.link {
+    color: black;
+    text-decoration: none;
+}
 
 .link_theme-light {
     color: white;

@@ -1,0 +1,32 @@
+.product {
+    line-height: 18px;
+    background-color: white;
+    width: 220px;
+    height: 286px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 180px 17px 0 17px;
+}
+
+.product__container {
+    margin: 10px 0;
+}
+
+.product__container_buy {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product__label {}
+
+.product__label_type {
+    text-transform: none;
+}
